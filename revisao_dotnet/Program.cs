@@ -4,11 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Comentarios();
-            Constantes();
-            EntradadeDeDados();
-            PrimeiroPrograma();
-            VariavelVar();
+            // Comentarios();
+            // Constantes();
+            // EntradadeDeDados();
+            // PrimeiroPrograma();
+            // VariavelVar();
+
+            OperadoresDeAtribuicao();
         }
         static void Comentarios()
         {
@@ -63,6 +65,51 @@
              * resulta em erro porque a variavel não foi iniciada com um
              * valor válido.
              */
+        }
+        static void OperadoresDeAtribuicao()
+        {
+            int x = 42;
+            // EQUIVALENTE A X = X + 2
+            x += 2;
+            Console.WriteLine(x);
+            // EQUIVALENTE A X = X - 6
+            x -= 6;
+            Console.WriteLine(x);
+            // EQUIVALENTE A X = X * 8
+            x *= 8;
+            Console.WriteLine(x);
+            // EQUIVALENTE A X = X / 5
+            x /= 5;
+            Console.WriteLine(x);
+            // EQUIVALENTE A X = X % 2
+            x %= 2;
+            Console.WriteLine(x);
+            // EQUIVALENTE A X = X + 1
+            x++;
+            Console.WriteLine(x);
+            // SOMA 1 A X ANTES DA EXPRESSÃO
+            ++x;
+            Console.WriteLine(x);
+            // SOMA 1 A X DEPOIS DA EXPRESSÃO
+            x++;
+            Console.WriteLine(x);
+            // SUBTRAI 1 A X ANTES DA EXPRESSÃO
+            --x;
+            Console.WriteLine(x);
+            // SUBTRAI 1 A X DEPOIS DA EXPRESSÃO
+            x--;
+            Console.WriteLine(x);
+
+            // EXEMPLO
+            x = 3;
+            int y = ++x;
+            // X = 4 e Y = 4;
+            Console.WriteLine($"X = {x} e Y = {y}");
+
+            x = 3;
+            y = x++;
+            // X = 4 e Y = 3;
+            Console.WriteLine($"X = {x} e Y = {y}");
         }
     }
 }
