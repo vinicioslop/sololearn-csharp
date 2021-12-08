@@ -1,4 +1,4 @@
-﻿namespace revisao_dotnet
+﻿namespace RevisaoModulo01
 {
     class Program
     {
