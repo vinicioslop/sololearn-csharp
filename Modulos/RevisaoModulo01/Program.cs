@@ -24,16 +24,14 @@
         }
         static void Constantes()
         {
-            const double PI = 3.14;
+            // const double PI = 3.14;
             // PI = 8; - RESULTA EM ERRO
         }
         static void EntradadeDeDados()
         {
             // EXEMPLOS
-
-            string yourName;
             Console.WriteLine("Whats is your name?");
-            yourName = Console.ReadLine();
+            string yourName = Console.ReadLine();
             Console.WriteLine("Helo {0}", yourName);
 
             int age = Convert.ToInt32(Console.ReadLine());
