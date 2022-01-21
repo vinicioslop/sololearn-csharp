@@ -4,9 +4,15 @@
     {
         static void Main(string[] args)
         {
-
+            Question01();
+            Question02();
+            Question03();
+            Question04();
+            Question05();
+            Question06();
+            Question07();
         }
-        void Question01()
+        static void Question01()
         {
             Console.WriteLine();
 
@@ -14,7 +20,7 @@
             Console.WriteLine("Can you instantiate objects an abstract class?");
             Console.WriteLine("R: No");
         }
-        void Question02()
+        static void Question02()
         {
             Console.WriteLine();
 
@@ -24,7 +30,7 @@
             Console.WriteLine("class Falcon : Bird {");
             Console.WriteLine("}");
         }
-        void Question03()
+        static void Question03()
         {
             Console.WriteLine();
 
@@ -33,7 +39,7 @@
             Console.WriteLine("its derived class members?");
             Console.WriteLine("R: protected");
         }
-        void Question04()
+        static void Question04()
         {
             Console.WriteLine();
 
@@ -51,7 +57,7 @@
             Console.WriteLine("     }");
             Console.WriteLine("}");
         }
-        void Question05()
+        static void Question05()
         {
             Console.WriteLine();
 
@@ -59,7 +65,7 @@
             Console.WriteLine("A sealed class can be marked as abstract.");
             Console.WriteLine("R: False");
         }
-        void Question06()
+        static void Question06()
         {
             Console.WriteLine();
 
@@ -73,7 +79,7 @@
             Console.WriteLine("class Test : A, B {");
             Console.WriteLine("}");
         }
-        void Question07()
+        static void Question07()
         {
             Console.WriteLine();
 
